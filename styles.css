@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"NeueHaasDisplay-Mediu";
+}
+html,body{
+   
+    height: 100%;
+    width: 100%;
+}
+#cursor{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:blue;
+    position: fixed;
+    transition: backgroundImage ease 3s;
+    mix-blend-mode: none;
+    background-position: center;
+    background-size: cover;
+    z-index: 30;
+}
+
+#page1{
+   min-height: 107vh;
+   background-color: #860A35;
+   position: relative;
+} 
+
+#nav{
+ height: 7vh;
+ display: flex;
+ align-items:center;
+ justify-content: space-between;
+ padding: 0 50px;
+}
+#nav h2{
+    font-weight: 200;
+    color:white;
+    font-size: 30px;
+}
+#nav2 h4{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+}
+#nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+#nav3{
+    width: 20px;
+    height:20px ;
+    border-radius: 50%;
+    background-color:white;
+}
+
+#nav2 h4:nth-child(1){
+  border-bottom: 2px solid white;
+}
+
+#page1 h1{
+    color: orange;
+    font-size: 7vw;
+    font-weight: 300;
+    margin-top: 6vw;
+    margin-left: 15vw;
+}
+#page1 h3{
+    color: rgba(68, 255, 0, 0.562);
+    font-size: 7vw;
+    margin-left: 35vw;
+}
+#page1 video{
+    width: 40%;
+    margin-top: 16vh;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 8;
+    background-color: #860A35;
+}
+#page2 h1{
+    font-size: 7vw;
+    font-weight: 300;
+    padding: 4vw;
+    color: darkblue;
+}
+#page2 #dholu{
+    width: 40%;
+}
+#page2 #bholu{
+    width: 40%;
+}
+#dholu h2{
+    font-size: 3vw;
+    font-weight: 300;
+    color: black;
+}
+#bholu p{
+    font-size: 2vw;
+    font-weight: 100;
+    color: black;
+}
+#bholu button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    color: black;
+
+}
+#dholu-bholu{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+
+#page3{
+    min-height: 40vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    position: relative;
+    padding-bottom: 7vw;
+    z-index: 8; 
+    background-color:  #EFEAE3;
+   
+}
+
+#page3 #ek{
+    padding-top: 15vw ;
+    padding-left: 10vw;
+}
+#page3 #do{
+    padding-right: 10vw;
+}
+
+#page4{
+    min-height: 30vh;
+    position: relative;
+    z-index: 8;
+    padding: 10vw;
+    background-color: #607274;
+}
+#elem{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#elem img{
+    position: absolute;
+    height: 160%;
+    opacity: 0;
+    transition: all ease-out 0.3s;
+    transform: translateY(10%) rotate(2deg);
+    z-index: 20;
+}
+
+#elem img:nth-child(1){
+    left: -5%;
+}
+#elem img:nth-child(3){
+    right: -5%;
+}
+#textdiv{
+    height: 130px;
+    overflow: hidden;
+    margin: 1vw 0;
+    border-bottom: .3px solid rgb(126, 122, 122);
+}
+#elem h1{
+    font-size: 7.3vw;
+    transition: all ease-out 0.3s;
+    color: white;
+}
+
+#elem:hover h1 {
+    transform: translateY(-100%);
+    color: #EDBFFF;
+}
+#elem:hover img{
+    opacity: 1;
+    transform: translateY(0%) rotate(0deg);
+}
+#page5{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+    padding: 0 150px;
+    background-color: #607274;
+}
+
+
+#page5 h1{
+    font-size: 5vw;
+    color: white;
+}
+
+#dabba{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    border-bottom: 2px solid #dadada;
+    padding: 0 20px;
+}
+#dabba h2,h3{
+    color: white;
+}
+#dummypage{
+    min-height: 80vh;
+    width: 100%;
+    background-color: rgb(20, 139, 195);
+    position: relative;
+}
+#dummypage h1{
+    color: white;
+    font-size: 7vw;
+    padding: 5vw 5vw ;
+}
+#dummypage p{
+    color: white;
+    font-size: 1vw;
+    padding: 0 5vw;
+}
+
+@media (max-width:600px) {
+    #nav{
+        padding: 0 50px;
+       }
+       #nav h2{
+           font-size: 4vw;
+           padding-right: 9vw;
+       }
+       #nav2{  
+           gap: 8px;
+       }
+      
+       #page1 h1{
+        margin-left: 45vw;
+        margin-top: 30vw;
+    }
+    #page1 h3{
+        color: rgba(68, 255, 0, 0.562);
+        font-size: 7vw;
+        margin-left: 15vw;
+    }
+    #page1 video{
+        width: 10%;
+    }
+}
