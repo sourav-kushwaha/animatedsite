@@ -1,113 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=100%, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=100%, initial-scale=1.0" />
     <title>Sourav Singh Kushwaha</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://db.onlinewebfonts.com/c/c00931e8b3cca8082101c210353fe27e?family=NeueHaasDisplay-Mediu" rel="stylesheet">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://db.onlinewebfonts.com/c/c00931e8b3cca8082101c210353fe27e?family=NeueHaasDisplay-Mediu"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div id="cursor"></div>
-    <div id="main">
-      
-        <div id="page1">
-            <div id="nav"><img src = "./portfolio.png">
-                <div id="nav2"> 
-           <a href="index.html"> <h4>Home</h4></a>
-            <a href="page4"><h4>Projects</h4></a>
-            <a href="page2"><h4>Skills</h4></a>
-            <a href="dummypage"><btn><h4> Resume</h4></btn></a> </div>
-            <div id="nav3"></div>
-        </div>
-                <h1>Hii Guys !! </h1>
-                <h3>Sourav this side </h3>
-                <video autoplay loop muted src="./project-video.mp4"> </video>
 
-            
+    <div id="main" data-scroll-container>
+      <div id="page1">
+        <div id="nav">
+          
+          <img id="logo" src="portfolio.png" />
+          <div id="nav2">
+            <h4 class="nav-link magnetic" data-target="#page1">Home</h4>
+            <h4 class="nav-link magnetic" data-target="#page5">Projects</h4>
+            <h4 class="nav-link magnetic" data-target="#page4">Skills</h4>
+          </div>
+
+          <div id="nav3">
+            <button
+              id="btn"
+              class="magnetic"
+              onclick="window.open('resume.pdf')"
+            >
+              Resume
+            </button>
+          </div>
         </div>
-        <div id="page2">
-            <h1>Hello Sourav here,</h1>
-            <div id="dholu-bholu"> <div id="dholu">
-                <h2>Helping brands to stand out in this digital era.
-                    Together we will set the new status quo. No nonsense,
-                    always on the cutting edge.
-                </h2>
-            </div>
-            <div id="bholu">
-                <p>The combination of my passion for design, code & interaction positions me in a unique place in the web design world.</p>
-                
-            </div>
-        </div>
-           
-        </div>
-        <div id="page3">
-            <img id="ek" src="https://plus.unsplash.com/premium_photo-1682145373962-4d76b19410ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D" alt="">
-            <img id="do" src="https://images.unsplash.com/photo-1704636487596-076a101c28bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyM3x8fGVufDB8fHx8fA%3D%3D" alt="">
-        </div>
-        <div id="page4">
-                <div id="elem">
-                    <img src="https://images.unsplash.com/photo-1704511659012-6596415cc869?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOXx8fGVufDB8fHx8fA%3D%3D" alt="">
-                    <div id="textdiv">
-                        <h1>Stratergy</h1>
-                        <h1>Stratergy</h1>
-                    </div>
-                    <img src="https://images.unsplash.com/photo-1704475386627-dcfcd97ed51a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNXx8fGVufDB8fHx8fA%3D%3D" alt="">
-               </div>
-               <div id="elem">
-                <img src="https://images.unsplash.com/photo-1682695795557-17447f921f79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw1Nnx8fGVufDB8fHx8fA%3D%3D" alt="">
-                <div id="textdiv">
-                    <h1>Technology</h1>
-                    <h1>Technology</h1>
-                </div>
-                <img src="https://images.unsplash.com/photo-1704636487929-6a09f864d53f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5OHx8fGVufDB8fHx8fA%3D%3D" alt="">
-           </div>
-           <div id="elem">
-            <img src="https://images.unsplash.com/photo-1703610481674-0b631119228e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3NXx8fGVufDB8fHx8fA%3D%3D" alt="">
-            <div id="textdiv">
-                <h1>Work</h1>
-                <h1>Work</h1>
-            </div>
-            <img src="https://images.unsplash.com/photo-1704383014594-01bc24b6b840?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDN8fHxlbnwwfHx8fHw%3D" alt="">
-       </div>
-        </div>
-        <div id="page5">
-            <h1>My Passion</h1>
-            <div id="dabba" data-image="https://images.unsplash.com/photo-1704636487596-076a101c28bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyM3x8fGVufDB8fHx8fA%3D%3D">
-               <h2>Travel</h2>
-               <h3>Europe</h3>
-            </div>
-            <div id="dabba" data-image="https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG9ubGluZXxlbnwwfHwwfHx8MA%3D%3D">
-                <h2>Travel</h2>
-                <h3>Europe</h3>
-             </div>
-             <div id="dabba" data-image="https://media.istockphoto.com/id/1438185814/photo/college-student-asian-man-and-studying-on-laptop-at-campus-research-and-education-test-exam.webp?b=1&s=170667a&w=0&k=20&c=GB278ll5DUQDJx4WnhrD-DCwjjjfTfyVCB7jmGz5fmQ=">
-                <h2>Travel</h2>
-                <h3>Europe</h3>
-             </div>
-             <div id="dabba" data-image="https://media.istockphoto.com/id/1500285927/photo/young-woman-a-university-student-studying-online.webp?b=1&s=170667a&w=0&k=20&c=w6oDn8-ru4jZhnnEt8AI6KdlgCJIgaaEZ4IMV50DnsQ=">
-                <h2>Travel</h2>
-                <h3>pithampur</h3>
-             </div>
-             <div id="dabba" data-image="https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG9ubGluZXxlbnwwfHwwfHx8MA%3D%3D">
-                <h2>Travel</h2>
-                <h3>Europe</h3>
-             </div>
-        </div>
-        <div id="dummypage">
-            <h1>THANKS FOR VISITING</h1>
-                <p>Signing off 
-                    Sourav Kushwaha
-                    contact : 7477291722
-                </p>
-        </div>
-    </div>
-  
+        <h1>Hola amigos , नमस्ते</h1>
+        <h3>Sourav this side !!</h3>
     
-   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <video autoplay loop muted src="./project-video.mp4"></video>
+        
+      </div>
+      <div id="page2">
+        <h1>I am Sourav Singh Kushwaha</h1>
+        <div id="dholu-bholu">
+          <div id="dholu">
+            <h2>
+              An aspring Full Stack Developer, Learning new Skills
+              and technology to enable my full potential to create
+              useful websites for users.
+            </h2>
+          </div>
+          <div id="bholu">
+            <p>
+              I try to combine my passion for design, code & interaction 
+              for better user experience.
+              </p>
+             
+              <p id="techstack">
+              My Tech stack includes: React,nodejs,expressjs,java-script
+              css, html, postgress , mongoDB etc.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div id="page3">
+        <a href="https://www.linkedin.com/in/sourav-kushwaha-470792234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          >
+          <img
+            class="magnetic"
+            id="ek"
+            src="linkedinlogo.png"
+            alt=""
+        /></a>
+        <a href="">  <img
+          class="magnetic"
+          id="do"
+          src="ytlogo.webp"
+          alt=""
+        /></a>
+         <a href="https://leetcode.com/u/sourav-k/"> <img
+            class="magnetic"
+            id="ek"
+            src="leet code.png"
+            alt=""
+        /></a>
+         <a href="https://github.com/sourav-kushwaha"> <img
+          class="magnetic"
+          id="do"
+          src="github logo.jpg"
+          alt=""
+        /></a>
+       
+        
+      </div>
+      <div id="page4">
+        <h1 id="whatido">What I Do :</h1>
+        <div id="elem">
+          <img
+            src="frontend2.jpg"
+            alt=""
+          />
+          <div id="textdiv">
+            <h1>Frontend</h1>
+            <h1>Frontend</h1>
+          </div>
+          <img
+            src="frontend1.jpg"
+            alt=""
+          />
+        </div>
+        <div id="elem">
+          <img
+            src="backend2.jpg"
+            alt=""
+          />
+          <div id="textdiv">
+            <h1>Backend</h1>
+            <h1>Backend</h1>
+          </div>
+          <img
+            src="backend3.png"
+            alt=""
+          />
+        </div>
+        <div id="elem">
+          <img
+            src="ui2.jpg"
+            alt=""
+          />
+          <div id="textdiv">
+            <h1>UI/UX </h1>
+            <h1>UI/UX </h1>
+          </div>
+          <img
+            src="ui1.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="page5">
+        <h1>Projects</h1>
+       <a href="https://madflix-gpt.onrender.com/" style="text-decoration: none;"> <div
+          id="dabba"
+          data-image="movie.png"
+        >
+          <h2>Movie Recommendation system</h2>
+           <img id="icons2" src="react.png" alt=""><img id="icons2" src="html.png" alt=""><img id = "icons2" src="css.png" alt=""><img id="icons2" src="java-script.png" alt=""><img id="icons2" src="gemini.webp" alt="">
+        </div></a>
+        <a href="https://sourav-kushwaha.github.io/project-website1/" style="text-decoration: none;"><div
+          id="dabba"
+          data-image="animated.png"  
+        >
+          <h2>Animated website</h2>
+         <img id="icons2" src="html.png" alt=""><img id = "icons2" src="css.png" alt=""><img id="icons2" src="java-script.png" alt="">
+        </div>
+        </a>
+        <div
+          id="dabba"
+          data-image="fuel.jpeg"
+        >
+          <h2>Fuel Guard (Iot Project ) </h2>
+          <h3>NodeMcu, tcs3200 sensors, level sensors, arduino etc</h3>
+        </div>
+        <div
+          id="dabba"
+          data-image="https://media.istockphoto.com/id/1500285927/photo/young-woman-a-university-student-studying-online.webp?b=1&s=170667a&w=0&k=20&c=w6oDn8-ru4jZhnnEt8AI6KdlgCJIgaaEZ4IMV50DnsQ="
+        >
+          <h2>Upcoming....</h2>
+          <h3></h3>
+        </div>
+        <div
+          id="dabba"
+          data-image="https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG9ubGluZXxlbnwwfHwwfHx8MA%3D%3D"
+        >
+          <h2>Upcoming....</h2>
+          <h3></h3>
+        </div>
+      </div>
+
+      <div id="dummypage">
+        <h1>THANKS FOR VISITING</h1>
+        <p>Contact: 7477291722 </p>
+        <p>Email:contacsouravkushwaha@gmail.com</p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+      integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
+
