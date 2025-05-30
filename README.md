@@ -1,1 +1,1 @@
-This is my personal project for learning the basics of html css javascript,locomotivejs,gsap ,scrollTrigger and many other animation required in an website.
+This is my portfolio website and it includes basic information about me and my skills and work.
