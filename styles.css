@@ -39,7 +39,7 @@ body{
 
 #nav2 a {
   text-decoration: none;
-  color: inherit; 
+  color: white; 
 }
 
 #nav{
@@ -55,21 +55,24 @@ body{
     font-size: 30px;
 }
 #nav2 h4{
+    /* color: rgb(3, 53, 15); */
     color: white;
+    font-family: sans-serif;
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 21px;
+    
+    font-size: 25px;
     display: inline-block;
   position: relative;
   transition: transform 0.2s ease;
   will-change: transform;
   cursor: pointer;
+  
 }
 #nav2{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    gap: 60px;
 }
 
 
@@ -82,16 +85,17 @@ body{
     margin-left: 15vw;
 }
 #page1 h3{
-    color: rgba(250, 250, 250, 0.992);
+    color: rgba(255, 255, 255, 0.992);
     font-size: 7vw;
     margin-left: 35vw;
 }
-#page1 video{
+#page1 img{
     width: 40%;
     margin-top: 16vh;
     position: relative;
     left: 50%;
     transform: translate(-50%,0);
+    border-radius: 15px;
 }
 #page2{
     min-height: 100vh;
@@ -169,19 +173,7 @@ body{
     font-weight: bold ;
    
 }
-/* #page3 #ek{
-    padding-top: 15vw ;
-    padding-left: 10vw;
-    border-radius: 10px;
-   
-  
-}
-#page3 #do{
-    margin-top: 5vw;
-    padding-right: 10vw;
-    border-radius: 20px;
-  
-} */
+
  #page3 h1{
     font-family: sans-serif;
     font-size: 40px;
@@ -193,7 +185,7 @@ body{
     position: relative;
     z-index: 8;
     padding: 10vw;
-    background-color:#A28B55;
+    background-color:#254D70;
 }
 #elem{
      display: flex;
@@ -243,7 +235,7 @@ body{
     position: relative;
     z-index: 9;
     padding: 0 150px;
-    background-color:#A28B55;
+    background-color:#254D70;
 }
 
 
@@ -268,7 +260,7 @@ body{
 #dummypage{
     min-height: 80vh;
     width: 100%;
-    background-color:#334BD3;
+    background-color:#7b8688;
     position: relative;
     z-index: 1;
 
@@ -309,16 +301,15 @@ body{
         font-size: 7vw;
         margin-left: 15vw;
     }
-    #page1 video{
+    #page1 img{
         width: 10%;
+        
     }
 }
-#logo{
-    padding-top: 10px;
-    height: 200px;
-    width: 200px;
-}
- 
+
+
+
+
 #btn {
   padding: 10px 20px;
   font-size: 16px;
