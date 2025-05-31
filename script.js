@@ -98,10 +98,10 @@ var tl4 = gsap.timeline({
 
 tl.to("#page1 h1", { x: -140 }, "anim");
 tl.to("#page1 h3", { x: 100 }, "anim");
-tl.to("#page1 video", { width: "85%" }, "anim");
+tl.to("#page1 img", { width: "85%" }, "anim");
 
 tl2.to("#page1,#page2", { backgroundColor: "#FFFFFF" });
-tl3.to("#page1,#page2,#page3", { backgroundColor: "#A28B55" });
+tl3.to("#page1,#page2,#page3", { backgroundColor: "#254D70" });
 tl4.to("#page3,#page4,#page5", { backgroundColor: "#1C1D20" });
 
 
