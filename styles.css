@@ -350,3 +350,6 @@ body{
 }
 #nav3 button {
   margin-top:30px;}
+#video{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
