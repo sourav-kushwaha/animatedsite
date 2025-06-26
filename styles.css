@@ -33,7 +33,7 @@ body{
 
 #page1{
    min-height: 107vh;
-   background-color: #56DFCF ;          
+   background-color: #410445 ;          
    position: relative;
 } 
 /*  #999D9E */
@@ -103,7 +103,7 @@ body{
     width: 100%;
     position: relative;
     z-index: 8;
-    background-color:#56DFCF;
+    background-color:#410445;
 }
 #page2 h1{
     font-size: 7vw;
