@@ -33,7 +33,8 @@ body{
 
 #page1{
    min-height: 107vh;
-   background-color: #555879 ;          
+  background-image: linear-gradient(180deg, #555879 , #999D9E);
+/*    background-color: #555879 ;           */
    position: relative;
 } 
 /*  #999D9E */
@@ -103,7 +104,7 @@ body{
     width: 100%;
     position: relative;
     z-index: 8;
-    background-color:#555879;
+    background-color:#999D9E;
 }
 #page2 h1{
     font-size: 7vw;
