@@ -104,7 +104,7 @@ body{
     width: 100%;
     position: relative;
     z-index: 8;
-    background-image: linear-gradient(180deg, #555879 , #999D9E);
+    background-image: #999D9E ;
 }
 #page2 h1{
     font-size: 7vw;
